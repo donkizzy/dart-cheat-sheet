@@ -22,6 +22,7 @@ A curated list of awesome stuff needed to get started with your flutter developm
 - [Futures: Async and Await](#future-async-await)
 - [JSON and serialization](#json-and-serialization)
 - [Reading and decoding a file](#Reading-and-decoding-a-file)
+- [Itenary Operators](#itenary-operators)
 
 
 
@@ -438,3 +439,35 @@ Future<void> main(List<String> args) async {
 }
 
  ```
+ 
+   ## Itenary Operators
+ Itenary Opertors also known as Conditional Operators are short hand if-else statement, they take three operands: a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false.
+ 
+ ### Example
+ 
+ ```dart
+ condition ? exprIfTrue : exprIfFalse
+ ```
+ 
+ ```dart
+ 
+ //Regualar If Statements
+ String heightInCM = 185;
+ 
+ String heightCategory = "H; 
+ 
+ if(heightInCM > 175){ 
+   heightCategory = "Tall";
+  } else { 
+   heightCategory = "Short"; 
+ } 
+ 
+ //Itenary Operators
+ 
+ String heightInCM = 185; 
+ // Here you have it clean and sweet
+ String heightCategory = heightInCM > 175 ? 'Tall' : 'Normal; 
+ 
+ ```
+ 
+ 
